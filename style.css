@@ -127,6 +127,7 @@ footer p, footer h2{color:#DBE4EE;}
 }
 
 ul{
+    list-style-type: none;
     display: flex;
     flex-direction: row;
     gap: 20px;
