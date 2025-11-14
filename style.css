@@ -1,0 +1,206 @@
+html, body{
+    margin: 0px;
+    padding: 0px;
+    font-family:Istok Web, sans-serif;
+}
+
+header{
+    padding-left:48px;
+    padding-right:48px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #DBE4EE;
+    position: sticky;
+    top: 0px;
+}
+.logo-header{
+    height: 64px;
+    width: 64px;
+}
+#home{
+    height: 524px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #001B2E;
+    padding-left:48px;
+    padding-right:48px;
+}
+
+#home div{
+    text-align: center;
+}
+
+#home h1, #home h2{color: #DBE4EE;}
+
+#sobre-mim{
+    display: flex;
+    justify-content: center;
+    padding-top: 48px;
+    padding-bottom: 48px;
+    background-color: #FFB464;
+    padding-left:48px;
+    padding-right:48px;
+    gap: 24px;
+}
+
+#sobre-mim article{
+    width: 640px;
+}
+
+#sobre-mim h2, #sobre-mim p{color: #001B2E;}
+
+#interesses{
+    background-color: #AA4BE0;
+    padding-left:48px;
+    padding-right:48px;
+    padding-top: 48px;
+    padding-bottom: 48px;
+    display: flex;
+    flex-direction: column;
+}
+
+#interesses p{
+    font-weight: 525;
+}
+
+#interesses h2{
+    text-align: center;
+}
+#interesses h2, #interesses p{color: #001B2E;}
+
+#interesses img{
+    border-radius: 20px;
+    border: 2px solid #001B2E;
+}
+
+.desenho{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+figure{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer{
+    background-color: #001B2E;
+    padding-left:48px;
+    padding-right:48px;
+}
+footer p, footer h2{color:#DBE4EE;}
+
+.logo-footer{
+    height: 90px;
+    width: 90px;
+}
+.eu{
+    height: 388px;
+    width: 340px;
+    border-radius: 20px;
+    border: 2px solid #001B2E;
+}
+
+.desenhos{
+    height: 370px;
+    width: 299px;
+}
+
+.snowbell{
+    width: 520px;
+    height: 300px;
+}
+
+.filme-img{
+    height: 336px;
+    width: 240px;
+}
+
+.jogo-img{
+   height: 336px;
+    width: 240px;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+p{
+    text-align: justify;
+}
+.gato{
+display: flex;
+margin-top: 48px;
+margin-bottom: 48px;
+align-content: space-around;
+} 
+
+.gato p{
+    display: flex;
+    margin-right: 200px;
+    align-items: center;
+}
+
+.filmes{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 48px;
+}
+
+.jogos{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.icon{
+    height: 24px;
+    width: 24px;
+    margin-right: 8px;
+}
+
+.contatos-footer{
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    gap: 380px;
+    align-items: center;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 12px;
+}
+
+.icons {
+    display: flex;
+    gap: 32px;
+    align-items: center;
+    justify-content: center;
+}
+
+.contatos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    color: #001B2E;
+}
+
+a:hover{
+    text-decoration: none;
+    color: #AA4BE0;
+}
