@@ -169,9 +169,8 @@ align-content: space-around;
 
 .contatos-footer{
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-around;
     width: 100%;
-    gap: 380px;
     align-items: center;
 }
 
@@ -194,7 +193,14 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-left: auto;
+    margin-right: auto;
 }
+
+.logo-footer{
+    margin-left: -3%;
+}
+
 
 a{
     text-decoration: none;
@@ -204,4 +210,9 @@ a{
 a:hover{
     text-decoration: none;
     color: #AA4BE0;
+}
+
+#contatos p{
+    margin-right: auto;
+    margin-left: auto;
 }
